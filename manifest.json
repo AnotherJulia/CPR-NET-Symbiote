@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "name": "CPR-NET",
-  "entryPoint": "/index.html",
+  "entryPoint": "/terminal.html",
   "descriptionFilePath": "/readme.md",
   "api": {
     "version": "0.1",
