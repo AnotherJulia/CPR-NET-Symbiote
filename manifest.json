@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "name": "CPR-NET",
+  "entryPoint": "/index.html",
+  "descriptionFilePath": "/readme.md",
+  "api": {
+    "version": "0.1",
+    "initTimeout": 10,
+    "subscriptions": {
+      "symbiote": {
+        "onStateChangeEvent": "onStateChangeEvent"
+      },
+      "players": {
+        "onBoardPlayerEvent": "handlePlayerEvents"
+      }
+    }
+  },
+  "environment": {
+    "webViewBackgroundColor": "#000000",
+    "extras": ["fonts", "colorStyles"]
+  }
+}
